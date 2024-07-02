@@ -14,7 +14,7 @@ from random import randint,choice
 import flask
 
 #* variables
-arrow_img = listdir("images/arrow images")
+arrow_img = listdir("images/arrow_images")
 question_img = listdir("images/db")
 
 
@@ -27,7 +27,8 @@ app = flask.Flask(__name__)
 @app.route("/")
 def home():
     a_img = choice(arrow_img)
-    return f"<img src='images/arrow images/{a_img}' alt='404 Not Found'>"
+
+    return flask.render_template("index.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
