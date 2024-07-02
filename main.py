@@ -14,8 +14,8 @@ from random import randint,choice
 import flask
 
 #* variables
-arrow_img = listdir("images/arrow_images")
-question_img = listdir("images/db")
+arrow_img = listdir("static/img/arrow_images")
+question_img = listdir("static/img/db")
 
 
 
