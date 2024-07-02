@@ -24,6 +24,7 @@ app = flask.Flask(__name__)
 def home():
     a_img = choice(arrow_img)
     q_img = choice(question_img)
+
     return flask.render_template("index.html",img1=f"static/img/arrow_images/{a_img}",img2=f"/static/img/animals/{q_img}")
 
 if __name__ == "__main__":
