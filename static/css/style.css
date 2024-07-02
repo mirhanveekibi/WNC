@@ -9,7 +9,16 @@
 }
 
 .container{
-    border: 1px solid rgba(0,0,0,0.9);
-    width: 45%;
-    height:50%;
+    margin: auto;
+    width: 380px;
+    height:440px;
+    border: 2px solid black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.container>*{
+    padding: 10px;
 }
