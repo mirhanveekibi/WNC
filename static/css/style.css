@@ -61,3 +61,11 @@
     width:64px;
     height:64px;
 }
+
+.animal-img #right:hover{
+    cursor: pointer;
+}
+
+.animal-img #left:hover{
+    cursor: pointer;
+}
