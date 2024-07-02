@@ -21,9 +21,8 @@ app = flask.Flask(__name__)
  
 @app.route("/")
 def home():
-    a_img = list(choice(arrow_img))#choice(arrow_img) list yok çünkü os.listdir list döner
-    return a_img#f"<img src='images/arrow images/{a_img}'>" burda direkt olarak a_img dersen sana string döner image(resim) dönmez
-    #merhaba
+    a_img = list(choice(arrow_img))
+    return a_img
 
 if __name__ == "__main__":
     app.run(debug=True)
