@@ -17,8 +17,6 @@ import flask
 arrow_img = listdir("static/img/arrow_images")
 question_img = listdir("static/img/db")
 
-
-
 #* flask app setup
 app = flask.Flask(__name__)
 
