@@ -18,8 +18,7 @@ arrow_img = listdir("images/arrow images")
 app = flask.Flask(__name__)
 
 
-
-
+ 
 @app.route("/")
 def home():
     a_img = list(choice(arrow_img))#choice(arrow_img) list yok çünkü os.listdir list döner
