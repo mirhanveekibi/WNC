@@ -30,7 +30,7 @@
     left: 30px;
 }
 
-.container .animal-img img{
+.container .animal-img #animal-img{
     width:250px;
     height:200px;
     position: absolute;
@@ -45,3 +45,4 @@
     left:33px;
     font-size: 13px;
 }
+
