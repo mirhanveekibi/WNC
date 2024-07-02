@@ -46,3 +46,18 @@
     font-size: 13px;
 }
 
+.container .animal-img #right{
+    position: absolute;
+    left:78%;
+    top:40%;
+    width:64px;
+    height:64px;
+}
+
+.container .animal-img #left{
+    position: absolute;
+    left:40%;
+    top:40%;
+    width:64px;
+    height:64px;
+}
