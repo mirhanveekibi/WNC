@@ -37,3 +37,11 @@
     left:190px;
     bottom:240px;
 }
+
+.container .arrow-img .text{
+    color:white;
+    position: absolute;
+    top:250px;
+    left:33px;
+    font-size: 13px;
+}
