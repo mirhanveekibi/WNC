@@ -14,7 +14,7 @@ from random import randint,choice
 import flask
 
 #* variables
-img_db = listdir("images/db")
+arrow_img = listdir("images/arrow images")
 app = flask.Flask(__name__)
 
 
@@ -22,7 +22,8 @@ app = flask.Flask(__name__)
 
 @app.route("/")
 def home():
-    return choice(img_db)
+    a_img = list(choice(arrow_img))
+    return a_img
 
 
 if __name__ == "__main__":
