@@ -15,7 +15,7 @@ import flask
 
 #* variables
 arrow_img = listdir("static/img/arrow_images")
-question_img = listdir("static/img/db")
+question_img = listdir("static/img/animals")
 
 #* flask app setup
 app = flask.Flask(__name__)
