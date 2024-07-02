@@ -49,15 +49,17 @@
 .container .animal-img #right{
     position: absolute;
     left:78%;
-    top:40%;
+    top:42%;
     width:64px;
     height:64px;
 }
 
 .container .animal-img #left{
     position: absolute;
+    background-color: white;
     left:40%;
-    top:40%;
+    top:42%;
+    border-radius: 50%;
     width:64px;
     height:64px;
 }
@@ -68,4 +70,12 @@
 
 .animal-img #left:hover{
     cursor: pointer;
+}
+
+.circles ul{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    position: absolute;
+    bottom: 1px;
 }
