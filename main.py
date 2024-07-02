@@ -22,8 +22,6 @@ question_img = listdir("static/img/db")
 #* flask app setup
 app = flask.Flask(__name__)
 
-
- 
 @app.route("/")
 def home():
     a_img = choice(arrow_img)
