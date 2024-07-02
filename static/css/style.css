@@ -52,6 +52,8 @@
     top:42%;
     width:64px;
     height:64px;
+    background-color: white;
+    border-radius: 50%;
 }
 
 .container .animal-img #left{
@@ -77,5 +79,14 @@
     flex-direction: row;
     gap:20px;
     position: absolute;
-    bottom: 1px;
+    left:250px;
+    top:290px;
+    list-style-type: none;
+}
+
+.circle{
+    width:10px;
+    height:10px;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 50%;
 }
