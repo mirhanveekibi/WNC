@@ -23,7 +23,7 @@ app = flask.Flask(__name__)
 @app.route("/")
 def home():
     a_img = choice(arrow_img)
-
+    q_img = choice(question_img)
     return flask.render_template("index.html")
 
 if __name__ == "__main__":
