@@ -15,6 +15,11 @@ import flask
 
 #* variables
 arrow_img = listdir("images/arrow images")
+question_img = listdir("images/db")
+
+
+
+#* flask app setup
 app = flask.Flask(__name__)
 
 
