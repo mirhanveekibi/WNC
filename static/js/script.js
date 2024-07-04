@@ -12,12 +12,20 @@ document.addEventListener("DOMContentLoaded",()=>{
             animalImageNum+=1;
             animalImage.setAttribute("src",`../static/img/animals/${animalImageLetter}${animalImageNum}.png`);
             uploadCircles(animalImageNum);
+        }else{
+            animalImageNum=1;
+            animalImage.setAttribute("src",`../static/img/animals/${animalImageLetter}${animalImageNum}.png`);
+            uploadCircles(animalImageNum);
         }
     })
 
     leftButton.addEventListener("click",()=>{
         if(animalImageNum>1){
             animalImageNum-=1;
+            animalImage.setAttribute("src",`../static/img/animals/${animalImageLetter}${animalImageNum}.png`);
+            uploadCircles(animalImageNum);
+        }else{
+            animalImageNum=5;
             animalImage.setAttribute("src",`../static/img/animals/${animalImageLetter}${animalImageNum}.png`);
             uploadCircles(animalImageNum);
         }
