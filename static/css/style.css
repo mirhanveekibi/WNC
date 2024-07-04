@@ -94,3 +94,8 @@
 .selected{
     background-color: rgba(0,0,0,0.6);
 }
+
+.submit-button{
+    position: absolute;
+    top:300px;
+}

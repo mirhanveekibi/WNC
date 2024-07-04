@@ -8,26 +8,31 @@
 </head>
 <body>
     <div class="container">
-        <div class="header-text">Use the arrows to rotate the animal to face in the direction of the hand.</div>
-        <div class="arrow-img">
-            <img src="{{img1}}" alt="404 Not Found">
-            <div class="text">Match this angle</div>
-        </div>
+        <form>
+            <div class="header-text">Use the arrows to rotate the animal to face in the direction of the hand.</div>
+            <div class="arrow-img">
+                <img src="{{img1}}" alt="404 Not Found">
+                <div class="text">Match this angle</div>
+            </div>
 
-        <div class="animal-img">
-            <img src="{{img2}}" alt="404 Not Found" id="animal-img">
-            <img src="../static/img/arrow_circle_images/right.png" alt="404 Not Found" id="right">
-            <img src="../static/img/arrow_circle_images/left.png" alt="404 Not Found" id="left">
-        </div>
-        <div class="circles">
-            <ul>
-                <li class="non-selected circle"></li>
-                <li class="non-selected circle"></li>
-                <li class="non-selected circle"></li>
-                <li class="non-selected circle"></li>
-                <li class="non-selected circle"></li>
-            </ul>
-        </div>
+            <div class="animal-img">
+                <img src="{{img2}}" alt="404 Not Found" id="animal-img">
+                <img src="../static/img/arrow_circle_images/right.png" alt="404 Not Found" id="right">
+                <img src="../static/img/arrow_circle_images/left.png" alt="404 Not Found" id="left">
+            </div>
+            <div class="circles">
+                <ul>
+                    <li class="non-selected circle"></li>
+                    <li class="non-selected circle"></li>
+                    <li class="non-selected circle"></li>
+                    <li class="non-selected circle"></li>
+                    <li class="non-selected circle"></li>
+                </ul>
+            </div>
+            <div class="submit-button">
+                <button type="submit" id="submit-button">Submit</button>
+            </div>
+        </form>
     </div>
     <script src="../static/js/script.js"></script>
 </body>
