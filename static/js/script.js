@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 const uploadCircles=(num_variable)=>{
-    let circles=document.querySelector(".circles>ul");
     let circleListItems=document.querySelectorAll(".circles>ul>li.circle");
 
     for(let i=0;i<circleListItems.length;i++){

@@ -28,6 +28,7 @@
     height:200px;
     position: absolute;
     left: 30px;
+    top:77px;
 }
 
 .container .animal-img #animal-img{
@@ -95,7 +96,15 @@
     background-color: rgba(0,0,0,0.6);
 }
 
-.submit-button{
+#submit-button{
     position: absolute;
-    top:300px;
+    top:330px;
+    left:30px;
+    width: 85%;
+    height:40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #313a43;
+    color:white;
 }
