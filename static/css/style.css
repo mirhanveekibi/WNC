@@ -108,3 +108,18 @@
     background-color: #313a43;
     color:white;
 }
+
+#restart-image{
+    position: absolute;
+    top:400px;
+    left:43%;
+    width:64px;
+    height:64px;
+    cursor: pointer;
+}
+
+#restart-button-text{
+    position: absolute;
+    top:460px;
+    left:44%;
+}

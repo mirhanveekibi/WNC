@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     var animalImage=document.querySelector("#animal-img");
     var animalImageNum=parseInt(animalImage.getAttribute("src").split("/")[4].replace(".png","")[1]);
     var animalImageLetter=animalImage.getAttribute("src").split("/")[4].replace(".png","")[0];
+    var restartButton=document.querySelector("#restart-image") 
 
     uploadCircles(animalImageNum);
 
@@ -29,7 +30,11 @@ document.addEventListener("DOMContentLoaded",()=>{
             animalImage.setAttribute("src",`../static/img/animals/${animalImageLetter}${animalImageNum}.png`);
             uploadCircles(animalImageNum);
         }
-    })
+    });
+
+    restartButton.addEventListener("click",()=>{
+        window.location.href="http://127.0.0.1:5000/"
+    });
 });
 
 const uploadCircles=(num_variable)=>{
