@@ -24,10 +24,11 @@
 }
 
 .container .arrow-img img{
-    width:120px;
+    width:150px;
     height:200px;
     position: absolute;
     left: 30px;
+    top:77px;
 }
 
 .container .animal-img #animal-img{
@@ -93,4 +94,32 @@
 
 .selected{
     background-color: rgba(0,0,0,0.6);
+}
+
+#submit-button{
+    position: absolute;
+    top:330px;
+    left:30px;
+    width: 85%;
+    height:40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #313a43;
+    color:white;
+}
+
+#restart-image{
+    position: absolute;
+    top:400px;
+    left:43%;
+    width:64px;
+    height:64px;
+    cursor: pointer;
+}
+
+#restart-button-text{
+    position: absolute;
+    top:460px;
+    left:44%;
 }
