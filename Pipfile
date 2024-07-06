@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 flask = "*"
 flask-limiter = "*"
+requests = "*"
+pandas = "*"
+scikit-learn = "*"
+joblib = "*"
 
 [dev-packages]
 
